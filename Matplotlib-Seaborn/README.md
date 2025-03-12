@@ -27,6 +27,8 @@ Matplotlib'de temel olarak **line plot (çizgi grafiği), scatter plot (dağıl�
 
 ### 📌 2.1 Basit Çizgi Grafiği
 ```python
+import matplotlib.pyplot as plt
+
 x = [1, 2, 3, 4, 5]
 y = [10, 15, 7, 12, 5]
 
@@ -42,6 +44,7 @@ plt.show()
 ### 📌 2.2 Dağılım Grafiği (Scatter Plot)
 ```python
 import numpy as np
+import matplotlib.pyplot as plt
 
 x = np.random.rand(50)
 y = np.random.rand(50)
@@ -50,6 +53,7 @@ plt.scatter(x, y, color='r')
 plt.title("Dağılım Grafiği")
 plt.show()
 ```
+![Basit Çizgi Grafiği](img/2.1.png)
 
 ---
 
@@ -62,6 +66,7 @@ plt.bar(kategoriler, değerler, color=['blue', 'orange', 'green', 'red'])
 plt.title("Çubuk Grafiği")
 plt.show()
 ```
+![Dağılım Grafiği](img/2.12.png)
 
 ---
 
