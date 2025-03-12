@@ -67,7 +67,7 @@ plt.bar(kategoriler, değerler, color=['blue', 'orange', 'green', 'red'])
 plt.title("Çubuk Grafiği")
 plt.show()
 ```
-
+<img src="img/2.3.png" alt="Çubuk Grafiği" width="500"/>
 
 ---
 
@@ -79,6 +79,7 @@ plt.hist(data, bins=30, color='purple', alpha=0.7)
 plt.title("Histogram")
 plt.show()
 ```
+<img src="img/2.4.png" alt="Histogram" width="500"/>
 
 ---
 
@@ -94,6 +95,7 @@ sns.histplot(df["flipper_length_mm"], kde=True, color='g')
 plt.title("Penguenlerin Yüzgeç Uzunluğu Dağılımı")
 plt.show()
 ```
+<img src="img/3.1.png" alt="Penguenlerin Yüzgeç Uzunluğu Dağılımı" width="500"/>
 
 ---
 
@@ -104,12 +106,14 @@ sns.barplot(x="species", y="body_mass_g", data=df)
 plt.title("Türlere Göre Vücut Kütlesi")
 plt.show()
 ```
+<img src="img/3.2.1.png" alt="Türlere Göre Vücut Kütlesi" width="500"/>
 
 ```python
 sns.boxplot(x="species", y="flipper_length_mm", data=df)
 plt.title("Boxplot ile Yüzgeç Uzunluğu")
 plt.show()
 ```
+<img src="img/3.2.2.png" alt="Boxplot ile Yüzgeç Uzunluğu" width="500"/>
 
 ---
 
@@ -119,12 +123,14 @@ plt.show()
 sns.pairplot(df, hue="species")
 plt.show()
 ```
+<img src="img/3.3.1.png" alt="Dağılım Grafiği" width="500"/>
 
 ```python
 sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
 plt.title("Korelasyon Isı Haritası")
 plt.show()
 ```
+<img src="img/3.2.2.png" alt="Korelasyon Isı Haritası" width="500"/>
 
 ---
 
