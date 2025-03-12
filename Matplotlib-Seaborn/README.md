@@ -60,6 +60,8 @@ plt.show()
 
 ### 📌 2.3 Çubuk Grafiği (Bar Chart)
 ```python
+import matplotlib.pyplot as plt
+
 kategoriler = ['A', 'B', 'C', 'D']
 değerler = [5, 7, 3, 8]
 
@@ -73,6 +75,9 @@ plt.show()
 
 ### 📌 2.4 Histogram (Dağılım Analizi)
 ```python
+import numpy as np
+import matplotlib.pyplot as plt
+
 data = np.random.randn(1000)
 
 plt.hist(data, bins=30, color='purple', alpha=0.7)
@@ -89,6 +94,9 @@ Seaborn, Matplotlib üzerine inşa edilmiştir ve daha estetik grafikler sunar.
 
 ### 📌 3.1 Seaborn ile Histogram ve KDE Grafiği
 ```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 df = sns.load_dataset("penguins")
 
 sns.histplot(df["flipper_length_mm"], kde=True, color='g')
@@ -102,6 +110,11 @@ plt.show()
 ### 📌 3.2 Seaborn ile Kategorik Çizimler (Barplot, Boxplot)
 
 ```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+df = sns.load_dataset("penguins")
+
 sns.barplot(x="species", y="body_mass_g", data=df)
 plt.title("Türlere Göre Vücut Kütlesi")
 plt.show()
@@ -120,13 +133,18 @@ plt.show()
 ### 📌 3.3 Dağılım ve Korelasyon Grafikleri
 
 ```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+df = sns.load_dataset("penguins")
+
 sns.pairplot(df, hue="species")
 plt.show()
 ```
 <img src="img/3.3.1.png" alt="Dağılım Grafiği" width="500"/>
 
 ```python
-sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
+sns.heatmap(df.corr(numeric_only=True), annot=True, cmap='coolwarm')
 plt.title("Korelasyon Isı Haritası")
 plt.show()
 ```
