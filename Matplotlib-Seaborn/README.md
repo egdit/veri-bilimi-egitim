@@ -53,8 +53,7 @@ plt.scatter(x, y, color='r')
 plt.title("Dağılım Grafiği")
 plt.show()
 ```
-<img src="img/2.1.png" alt="Çizgi Grafiği" width="500"/>
-![Basit Çizgi Grafiği](img/2.1.png)
+<img src="img/2.1.png" alt="Basit Çizgi Grafiği" width="500"/>
 
 ---
 
@@ -67,7 +66,7 @@ plt.bar(kategoriler, değerler, color=['blue', 'orange', 'green', 'red'])
 plt.title("Çubuk Grafiği")
 plt.show()
 ```
-![Dağılım Grafiği](img/2.2.png)
+<img src="img/2.2.png" alt="Dağılım Grafiği" width="500"/>
 
 ---
 
