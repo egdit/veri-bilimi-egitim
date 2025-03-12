@@ -130,7 +130,7 @@ sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
 plt.title("Korelasyon Isı Haritası")
 plt.show()
 ```
-<img src="img/3.2.2.png" alt="Korelasyon Isı Haritası" width="500"/>
+<img src="img/3.3.2.png" alt="Korelasyon Isı Haritası" width="500"/>
 
 ---
 
