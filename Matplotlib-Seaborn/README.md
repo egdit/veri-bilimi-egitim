@@ -38,6 +38,7 @@ plt.xlabel("X Ekseni")
 plt.ylabel("Y Ekseni")
 plt.show()
 ```
+<img src="img/2.1.png" alt="Basit Çizgi Grafiği" width="500"/>
 
 ---
 
@@ -53,7 +54,7 @@ plt.scatter(x, y, color='r')
 plt.title("Dağılım Grafiği")
 plt.show()
 ```
-<img src="img/2.1.png" alt="Basit Çizgi Grafiği" width="500"/>
+<img src="img/2.2.png" alt="Dağılım Grafiği" width="500"/>
 
 ---
 
@@ -66,7 +67,7 @@ plt.bar(kategoriler, değerler, color=['blue', 'orange', 'green', 'red'])
 plt.title("Çubuk Grafiği")
 plt.show()
 ```
-<img src="img/2.2.png" alt="Dağılım Grafiği" width="500"/>
+
 
 ---
 
