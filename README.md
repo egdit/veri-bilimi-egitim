@@ -3,7 +3,7 @@
 Bu repo, **Python, NumPy, Pandas, Matplotlib, Seaborn** gibi kütüphaneleri içeren **veri bilimi** konularında öğrenme notlarını ve örnekleri içermektedir.
 
 ## 📂 İçerik
-🔹 **Python Temelleri**  
+🔹 **Python Notları**  
 🔹 **NumPy: Çok boyutlu dizilerle çalışma**  
 🔹 **Pandas: Veri işleme ve analiz**  
 🔹 **Matplotlib & Seaborn: Veri görselleştirme**  
